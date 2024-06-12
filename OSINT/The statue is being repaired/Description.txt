@@ -1,0 +1,3 @@
+This statue is typical of an university, can you find out the name of the statue and the city where it exists?
+Format flag: `OSCTF{name of statue_city}`
+If the name of the statue is Statue of Liberty at New York, US, the flag will be: `OSCTF{statueofliberty_newyork}`

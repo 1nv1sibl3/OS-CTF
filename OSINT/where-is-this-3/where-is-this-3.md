@@ -2,3 +2,6 @@
 
 I love my school. Try to understand where this is :3 Google maps won't help you now, good luck!
 
+Flag format: OSCTF{university_city}. Words in bracket are in lowercase
+
+Example: if the answer is New York University. The flag is: OSCTF{nyu_newyork}. Note: the flag in bracket is in lowercase

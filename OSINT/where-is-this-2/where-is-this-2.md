@@ -4,4 +4,4 @@ This place is gorgeous. So where is this ?
 
 Flag format: OSCTF{university_city}. Words in bracket are in lowercase
 
-Example: OSCTF{utokyo_tokyo}
+Example: if the answer is New York University. The flag is: OSCTF{nyu_newyork}. Note: the flag in bracket is in lowercase

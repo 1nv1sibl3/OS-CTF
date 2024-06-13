@@ -2,4 +2,4 @@
 
 Directed to the first osint challenge, where is this ?
 
-Flag format: OSCTF{University name}, example: OSCTF{vnu hcm}. Note: the flag is in lowercase
+Flag format: OSCTF{university_city}, example: OSCTF{utokyo_tokyo}. Note: the flag is in lowercase

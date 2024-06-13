@@ -1,4 +1,4 @@
-![image](https://github.com/1nv1sibl3/OS-CTF/assets/120787381/2a809eb5-9cb0-4530-8e3f-fcc798ad4858)
+![image](https://github.com/1nv1sibl3/OS-CTF/assets/120787381/05de218c-c259-4737-8f71-157ad75f28b6)
 
 Directed to the first osint challenge, where is this ?
 

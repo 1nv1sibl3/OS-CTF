@@ -16,7 +16,7 @@ def encrypt(billet_doux):
         letter += owo
     return letter
 
-m = "KIMI_O_SUKI_NI_NATTE_SHIMATTA"
+m = "REDACTED"
 
 c = encrypt(m)
 print(c)

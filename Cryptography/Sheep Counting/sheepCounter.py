@@ -2,7 +2,7 @@ from Crypto.Cipher import AES
 from os import urandom
 
 
-KEY = b'2b4a9f5d776e5563921bfcac810caf56'
+KEY = b'REDACTED'
 
 
 class StepUpCounter(object):

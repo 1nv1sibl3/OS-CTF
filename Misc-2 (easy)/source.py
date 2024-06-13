@@ -1,13 +1,13 @@
-import sys
+import socket
 
-def ask_question(question, correct_answer):
-    answer = input(question + " ")
-    return answer.strip().lower() == correct_answer.lower()
+def ask_question(conn, question, correct_answer):
+    conn.sendall(question.encode() + b" ")
+    answer = conn.recv(1024).decode().strip()
+    return answer.lower() == correct_answer.lower()
 
 def main():
     questions = {
         "What is the default port for HTTP?": "80",
-        "What does XSS stand for in web security?": "Cross-Site Scripting",
         "Who invented the World Wide Web?": "Tim Berners-Lee",
         "What does DNS stand for?": "Domain Name System",
         "What is the process of converting data into a coded format called?": "Encryption",
@@ -26,7 +26,8 @@ def main():
         "What is the term for a software update that fixes bugs and vulnerabilities?": "Patch",
         "What does MFA stand for in cybersecurity?": "Multi-Factor Authentication",
         "What is a tool that scans a network for open ports and services?": "Nmap",
-        "What is the name of the secure file transfer protocol that uses SSH?": "SFTP"
+        "What is the name of the secure file transfer protocol that uses SSH?": "SFTP",
+        "What does XSS stand for in web security?": "Cross-Site Scripting"
     }
 
     flag_parts = {
@@ -53,19 +54,29 @@ def main():
         20: "}"
     }
 
+
     revealed_flag = ["_"] * len(flag_parts)
 
-    print("Answer the following cybersecurity questions to reveal the flag:")
+    HOST = '0.0.0.0'
+    PORT = 12345
 
-    for index, (question, correct_answer) in enumerate(questions.items()):
-        if ask_question(question, correct_answer):
-            revealed_flag[index] = flag_parts[index]
-            print(f"Correct! {''.join(revealed_flag)}")
-        else:
-            print("Incorrect. Start over again!")
-            sys.exit(1)
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+        s.bind((HOST, PORT))
+        s.listen()
+        print(f"Server listening on port {PORT}...")
+        conn, addr = s.accept()
+        with conn:
+            print('Connected by', addr)
+            conn.sendall(b"Answer the following cybersecurity questions to reveal the flag:\n")
 
-    print(f"\nFinal flag: {''.join(revealed_flag)}")
+            for index, (question, correct_answer) in enumerate(questions.items()):
+                if ask_question(conn, question, correct_answer):
+                    revealed_flag[index] = flag_parts[index]
+                    conn.sendall(f"Correct! {''.join(revealed_flag)}\n".encode())
+                else:
+                    conn.sendall(b"Incorrect. Try the next question.\n")
+
+            conn.sendall(f"\nFinal flag: {''.join(revealed_flag)}\n".encode())
 
 if __name__ == "__main__":
     main()

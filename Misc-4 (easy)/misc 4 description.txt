@@ -1,0 +1,3 @@
+There is a Flag hidden somewhere in the realms of code of this ctf server... but the question is, Where!?
+
+(Note for self: i have to add the flag to the html code of the home page)

@@ -1,7 +1,7 @@
 function checkFlag() {
     const flagInput = document.getElementById('flagInput').value;
     const result = document.getElementById('result');
-    const flag = "OSCTF{y0U_f0unD_M3_bY_1n5p3C7t1nG!}";
+    const flag = "OSCTF{Cr4zY_In5P3c71On}";
 
     if (flagInput === flag) {
         result.textContent = "Congratulations! You found the flag!";

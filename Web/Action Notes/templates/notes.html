@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Notes</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Notes</h1>
+        <form method="post">
+            <label for="note">New Note:</label>
+            <input type="text" id="note" name="note" required>
+            <button type="submit">Add Note</button>
+        </form>
+        <h2>Your Notes</h2>
+        <ul>
+            {% for note in notes %}
+                <li>{{ note[0] }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>

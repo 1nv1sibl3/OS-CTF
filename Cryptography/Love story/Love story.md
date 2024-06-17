@@ -2,6 +2,6 @@ Otto and his brothers discover that his friend Siegfried has written a love lett
 
 Hint: Hacker Bronie helped you hack into Siegfried's computer and find out the program he used for encryption. Let's decode it!
 
-Don't put the plaintext in flag format.
+Don't forget to put the plaintext in flag format.
 
 Ex: the output is `HELLO_WORLD`, then the flag is `OSCTF{HELLO_WORLD}`

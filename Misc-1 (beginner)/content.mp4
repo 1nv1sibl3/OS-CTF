@@ -1,1 +1,0 @@
-OSCTF{T3xt_3DiT0r_FTW!}

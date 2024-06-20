@@ -1,0 +1,11 @@
+This only for setting up server
+
+Reuqirement: Java 17
+
+command to run
+
+java -Xmx[maximum ram allocation] -jar spigot-1.20.4.jar nogui
+
+Ex: java -Xmx8G -jar spigot-1.20.4.jar nogui
+
+link to download server: https://drive.google.com/file/d/1LYgBxe2Y44iwNT1nCWbBu7rf38pudXu9/view?usp=sharing

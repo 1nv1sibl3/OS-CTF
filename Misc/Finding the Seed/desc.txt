@@ -2,3 +2,6 @@ I just join minecraft with my friend and we're trying to see who will be the bes
 
 Flag format: OSCTF{world_Seed}
 ex: OSCTF{10033887773255362}
+
+Note: You need to join the game to clear this challenge.
+Note2: You can use shiginima launcher or tlauncher to join the game

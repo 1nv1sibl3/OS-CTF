@@ -1,0 +1,31 @@
+FROM ubuntu:20.04
+
+# Install necessary packages including 32-bit libraries
+RUN dpkg --add-architecture i386 && \
+    apt-get update && \
+    apt-get install -y xinetd libc6:i386 lib32z1 file libc-bin
+
+
+# Copy the challenge binary, xinetd configuration, flag file to the challenge directory
+COPY leaky_pipes /leaky_pipes
+COPY leaky_pipes.xinetd /leaky_pipes.xinetd
+COPY flag.txt /flag.txt
+
+# Copy xinetd binary from system path to challenge directory
+RUN cp /usr/sbin/xinetd /xinetd
+
+# Ensure the challenge binary and xinetd are executable
+RUN chmod +x /leaky_pipes
+RUN chmod +x /xinetd
+
+# Add xinetd configuration
+RUN cp /leaky_pipes.xinetd /etc/xinetd.d/leaky_pipes
+
+# Add a banner fail message
+RUN echo "Connection failed" > /etc/banner_fail.txt
+
+# Expose the port the challenge will run on
+EXPOSE 1337
+
+# Start xinetd to run the challenge service
+CMD ["/xinetd", "-dontfork"]

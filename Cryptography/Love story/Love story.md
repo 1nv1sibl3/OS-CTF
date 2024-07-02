@@ -5,3 +5,5 @@ Hint: Hacker Bronie helped you hack into Siegfried's computer and find out the p
 Don't forget to put the plaintext in flag format.
 
 Ex: the output is `HELLO_WORLD`, then the flag is `OSCTF{HELLO_WORLD}`
+
+Author: Vanmaxohp

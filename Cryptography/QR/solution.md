@@ -1,3 +1,7 @@
+# Name: Legend'residue
+
+Author: Vanmaxohp
+
 # Knowledge required
 
 - [Legendre symbol](https://en.wikipedia.org/wiki/Legendre_symbol)

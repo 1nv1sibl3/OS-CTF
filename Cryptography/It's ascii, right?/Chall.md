@@ -1,4 +1,4 @@
-![image](https://github.com/1nv1sibl3/OS-CTF/assets/90485791/b25360ab-3ac9-4b64-98e7-57370a53a1db)Find out the lost part of the flag:
+Find out the lost part of the flag:
 
 `OSCTF{Plaintext}`
 

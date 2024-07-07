@@ -1,6 +1,7 @@
-Decode using ASCII: `DudAsciIDdI`
+Decode using ASCII: `cYfa153As5cICi`
 
-![image](https://github.com/1nv1sibl3/OS-CTF/assets/90485791/4fb5f254-6108-4066-ae5d-6e47149dcaff)
+![image](https://github.com/1nv1sibl3/OS-CTF/assets/90485791/e4dba1a2-03a4-4062-8db9-a22bdf0447ed)
+
 
 Fake flag for sure :))))
 
@@ -8,7 +9,8 @@ Notice that in the ciphertext, there are only 3 tens digits (3, 4, 5, 6, 7) and 
 
 At this point, we just need to enter the parameters into the rows and decode:
 
-![image](https://github.com/1nv1sibl3/OS-CTF/assets/90485791/5753814a-df46-4af2-bd43-72fdb1ecbe31)
+![image](https://github.com/1nv1sibl3/OS-CTF/assets/90485791/83ca5114-9fe5-4d6b-90ed-54e4c8c6e991)
+
 
 
 Flag: `OSCTF{POLYBIUSCIPHER}`

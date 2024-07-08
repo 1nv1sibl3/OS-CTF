@@ -1,0 +1,1 @@
+FLAG : OSCTF{JU5t_n0rmal_eXE1_f113_w1th_C2_1n51De}

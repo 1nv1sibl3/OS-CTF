@@ -1,0 +1,1 @@
+OSCTF{ministry_of_foreign_affairs}

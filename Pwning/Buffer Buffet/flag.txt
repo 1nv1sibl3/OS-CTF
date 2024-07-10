@@ -1,1 +1,0 @@
-OSCTF{b4s1c_ret2win_f0r_warmup}

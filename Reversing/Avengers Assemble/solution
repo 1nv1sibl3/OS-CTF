@@ -1,3 +1,5 @@
-Inp1 = deadbeef - 6f56df8d 
+Inp1 = deadbeef - 6f56df8d = 1867964258
 Inp2 = 6f56df8d
 Inp3 = 6f56df8d xor 2103609845
+
+OSCTF{1867964258_104817115736_305419896}

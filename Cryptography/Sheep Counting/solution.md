@@ -26,4 +26,4 @@ if len(keystream) == 16:
     image = open('flag.png', 'wb').write(plain)
 ```
 
-Flag: OSCTF{l375_l34rN_70_c0un7!!!}
+Flag: `OSCTF{SH33P_CouNT1ng_111}`

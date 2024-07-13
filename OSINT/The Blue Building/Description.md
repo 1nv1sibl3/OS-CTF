@@ -8,4 +8,4 @@ Try to find the coordinates close to where I took this photo.
 
 Example: OSCTF{67.235, 23.679}
 
-Note: The blue building and the structure behind me are quite large.
+Note: That blue building and the structure behind me are quite large.

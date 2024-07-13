@@ -1,0 +1,24 @@
+In a digital realm where secrets are sown,
+An OSINT challenge, the mystery unknown.
+With clues to uncover, a journey began,
+In the vast web’s threads, we drew up our plan.
+
+First, to Instagram, the profile we'd seek,
+User enumeration, the task wasn't weak.
+Photos and captions, likes in a row,
+Hidden connections began to show.
+
+Next, to YouTube, a new quest unfurled,
+Searching for users in this vast video world.
+Comments and channels, the hunt carried on,
+Each clue a new puzzle from dusk until dawn.
+
+Amongst the videos, a cake made the scene,
+A hint wrapped in layers of sugary sheen.
+Baking and frosting, a coded delight,
+Deciphering riddles late into the night.
+
+
+Apart from this poem, I have found this instagram account: https://www.instagram.com/kavitakatadka/
+
+Use your osint skills and find the flag! GOGOGOGO!

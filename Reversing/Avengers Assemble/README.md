@@ -2,4 +2,3 @@ The Avengers have assembled but to solve this? Why call Avengers for such a simp
 
 FLAG FORMAT: OSCTF{Inp1_Inp2_Inp3} (Integer values)
 
-@Inv1s1bl3

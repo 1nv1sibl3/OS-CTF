@@ -1,1 +1,1 @@
-pwn challs
+Credits to respective challenge authors.
